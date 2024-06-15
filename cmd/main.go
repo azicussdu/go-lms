@@ -17,6 +17,7 @@ func main() {
 		Logger: logger.Default.LogMode(logger.Info),
 	})
 	if err != nil {
+
 		panic("failed to connect to the database")
 	}
 
